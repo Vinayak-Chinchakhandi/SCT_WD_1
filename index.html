@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wanderly Travel Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="logo">Wanderly</div>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu">&#9776;</button>
+
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#destinations" class="nav-link">Destinations</a></li>
+      <li><a href="#experiences" class="nav-link">Experiences</a></li>
+      <li><a href="#whyus" class="nav-link">Why Us</a></li>
+      <li><a href="#reviews" class="nav-link">Reviews</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Full screen mobile menu overlay -->
+  <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+    <button id="mobile-menu-close" class="mobile-menu-close" aria-label="Close navigation menu">&times;</button>
+    <ul class="mobile-menu-list">
+      <li><a href="#home" class="mobile-menu-link">Home</a></li>
+      <li><a href="#destinations" class="mobile-menu-link">Destinations</a></li>
+      <li><a href="#experiences" class="mobile-menu-link">Experiences</a></li>
+      <li><a href="#whyus" class="mobile-menu-link">Why Us</a></li>
+      <li><a href="#reviews" class="mobile-menu-link">Reviews</a></li>
+      <li><a href="#contact" class="mobile-menu-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <section class="hero" id="home">
+    <h1>Discover the World with Wanderly</h1>
+    <p>Find, plan, and book authentic travel experiences—stress-free.</p>
+    <a href="#destinations" class="btn">Start Your Adventure</a>
+  </section>
+
+  <section class="section" id="destinations">
+    <h2>Featured Destinations</h2>
+    <div class="cards">
+      <div class="card">Paris<br><span>City of Lights</span></div>
+      <div class="card">Bali<br><span>Tropical Paradise</span></div>
+      <div class="card">Kyoto<br><span>Cherry Blossom Wonders</span></div>
+      <div class="card">Iceland<br><span>Northern Lights</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="experiences">
+    <h2>Unique Travel Experiences</h2>
+    <ul class="experiences-list">
+      <li>Food tours with local chefs</li>
+      <li>Hot air balloon rides</li>
+      <li>Wildlife safaris</li>
+      <li>Snorkeling adventures</li>
+      <li>Mountain biking trails</li>
+    </ul>
+  </section>
+
+  <section class="section" id="whyus">
+    <h2>Why Choose Wanderly?</h2>
+    <ul class="features-list">
+      <li>Custom travel itineraries made for you</li>
+      <li>Trusted local guides & partners</li>
+      <li>24/7 trip support</li>
+      <li>Best price guarantee</li>
+      <li>Easy, secure bookings</li>
+    </ul>
+  </section>
+
+  <section class="section" id="reviews">
+    <h2>Traveler Testimonials</h2>
+    <div class="testimonial">
+      “Booking with Wanderly was so easy! Our Paris trip was unforgettable.” — <b>Lara M.</b>
+    </div>
+    <div class="testimonial">
+      “Loved the local Bali tours I never would have found on my own!” — <b>Priya S.</b>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form" onsubmit="return false;">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Inquiry</button>
+    </form>
+    <p>Email: vinayakchinchakhandi165@gmail.com | Phone: +91-7338311674</p>
+  </section>
+
+  <footer>
+    © 2025 Wanderly. All Rights Reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
